@@ -9,8 +9,13 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+h1,h2,h3,h4,h5,h6 {
+  font-family: "PingFangSC-Thin", PingFangSC;
+  font-weight: 200;
+}
+
 a {
-  color: #1e6bb8;
+  color: #4080bf;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -56,8 +61,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #336699;
+  background-image: linear-gradient(120deg, #54C9DB, #336699); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -111,8 +116,8 @@ a {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: 400;
-  color: #159957; }
+  font-weight: 200;
+  color: #566376; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
